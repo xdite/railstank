@@ -10,13 +10,30 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["xdite"]
   s.date = %q{2011-04-27}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{indextank rails plugin}
   s.email = %q{xuite.joke@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
   ]
-  s.files = `git ls-files`.split("\n")
+  s.files = [
+    ".document",
+    ".rspec",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
+    "README.rdoc",
+    "Rakefile",
+    "VERSION",
+    "lib/generators/rankstank/USAGE",
+    "lib/generators/rankstank/railstank_generator.rb",
+    "lib/generators/rankstank/templates/indextank.yml.example",
+    "lib/generators/rankstank/templates/setup_indextank.rb",
+    "lib/railstank.rb",
+    "railstank.gemspec",
+    "spec/railstank_spec.rb",
+    "spec/spec_helper.rb"
+  ]
   s.homepage = %q{http://github.com/xdite/railstank}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
