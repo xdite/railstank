@@ -12,4 +12,4 @@ group :development do
   gem "rcov", ">= 0"
 end
 
-gem "indextank"
+gem "indextank", ">= 1.0.9.1"

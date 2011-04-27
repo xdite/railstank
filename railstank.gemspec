@@ -48,12 +48,12 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<railstank>, [">= 0"])
+      s.add_runtime_dependency(%q<indextank>, [">= 1.0.9.1"])
     else
-      s.add_dependency(%q<indextank>, [">= 0"])
+      s.add_dependency(%q<indextank>, [">= 1.0.9.1"])
     end
   else
-    s.add_dependency(%q<indextank>, [">= 0"])
+    s.add_dependency(%q<indextank>, [">= 1.0.9.1"])
   end
 end
 
