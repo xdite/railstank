@@ -10,7 +10,7 @@ class RailstankGenerator < Rails::Generators::Base
   end
   
   def copy_indextank_initializer
-    copy_file "load_indextank.rb", "config/initializer/load_indextank.rb"
+    copy_file "load_indextank.rb", "config/initializers/load_indextank.rb"
   end
 
 end
