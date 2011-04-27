@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "railstank"
   gem.homepage = "http://github.com/xdite/railstank"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{indextank rails plugin}
+  gem.description = %Q{indextank rails plugin}
   gem.email = "xuite.joke@gmail.com"
   gem.authors = ["xdite"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
