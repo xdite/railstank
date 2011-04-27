@@ -1,3 +1,5 @@
+require 'rubygems'
+require 'indextank'
 module Railstank
   class Error < StandardError; end
 
