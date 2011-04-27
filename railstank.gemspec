@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "lib/generators/railstank/USAGE",
     "lib/generators/railstank/railstank_generator.rb",
     "lib/generators/railstank/templates/indextank.yml.example",
+    "lib/generators/railstank/templates/load_indextank.rb",
     "lib/railstank.rb",
     "railstank.gemspec",
     "spec/railstank_spec.rb",
