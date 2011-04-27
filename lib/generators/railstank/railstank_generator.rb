@@ -6,7 +6,7 @@ class RailstankGenerator < Rails::Generators::Base
   end
 
   def copy_config_file
-    copy_file "indextank.yml", "config/indextank.yml.example"
+    copy_file "indextank.yml.example", "config/indextank.yml.example"
   end
   
   def copy_indextank_initializer
