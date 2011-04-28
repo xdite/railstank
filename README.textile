@@ -4,20 +4,12 @@ Rails plugin for IndexTank
 
 h2. Install
 
-<pre>
-<code>
-    gem install railstank
-</code>
-</pre>
+<pre><code>gem install railstank</code></pre>
 
 h2. Example
 
 1. Run generator
-<pre>
-<code>
-    rails g railstank 
-</code>
-</pre>
+<pre><code>rails g railstank </code></pre>
 
 It will automate generate indextank.yml to your config/ directory. Please fill up your information.*
 
