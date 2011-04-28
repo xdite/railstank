@@ -36,7 +36,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0.0)
-  indextank
+  indextank (>= 1.0.9.1)
   jeweler (~> 1.5.2)
   rcov
   rspec (~> 2.3.0)
