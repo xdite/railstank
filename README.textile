@@ -5,14 +5,18 @@ Rails plugin for IndexTank
 h2. Install
 
 <pre>
-    <code>gem install railstank</code>
+<code>
+    gem install railstank
+</code>
 </pre>
 
 h2. Example
 
 1. Run generator
 <pre>
-    <code> rails g railstank </code>
+<code>
+    rails g railstank 
+</code>
 </pre>
 
 It will automate generate indextank.yml to your config/ directory. Please fill up your information.*
@@ -20,11 +24,12 @@ It will automate generate indextank.yml to your config/ directory. Please fill u
 *2. Include Railstank::Search in your model
 
 <pre>
-    <code>
+<code>
 class Topic < ActiveRecord::Base
   include Railstank::Search
-   has_indextank :forum_topic_index, :index_class_name => "Topic"
-   </code>
+  has_indextank :forum_topic_index, :index_class_name => "Topic"
+end
+</code>
 </pre>
 
 * If you don't choose index_class_name, it will auto fetch your current class_name.
