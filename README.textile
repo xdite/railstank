@@ -10,12 +10,12 @@ h2. Install
 
 h2. Example
 
-*1. Run generator
+1. Run generator
 <pre>
     <code> rails g railstank </code>
 </pre>
 
-*It will automate generate indextank.yml to your config/ directory. Please fill up your information.*
+It will automate generate indextank.yml to your config/ directory. Please fill up your information.*
 
 *2. Include Railstank::Search in your model
 
@@ -28,9 +28,9 @@ class Topic < ActiveRecord::Base
 </pre>
 
 * If you don't choose index_class_name, it will auto fetch your current class_name.
-  Then you can avoid STI class problem
+* Use :index_class_name, you can avoid STI class problem
 
-h2. Contributing to railstank
+h2. Contributing to Railstank
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
